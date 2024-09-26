@@ -13,10 +13,13 @@ const nextConfig = {
         name: 'remote',
         remotes: {
           host: `host@http://localhost:3000/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
+
         },
-        
+
         filename: 'static/chunks/remoteEntry.js',
-        
+        exposes:{
+          './nav': './components/Nav.js'
+        },
         extraOptions: {
           exposePages: true
         }
