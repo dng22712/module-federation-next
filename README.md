@@ -15,7 +15,7 @@ The project is divided into two main parts:
 1. **myremote (Remote)**: Exposes components to be used by other applications.
 2. **myhost (Host)**: Imports and uses components from Remote dynamically.
 
-Both apps are built using **React** and **Webpack 5**, leveraging the module federation feature to share code across applications.
+Both apps are built using **Next** and **Webpack 5**, leveraging the module federation feature to share code across applications.
 
 ## Features
 
